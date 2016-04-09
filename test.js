@@ -17,9 +17,7 @@ say("You said" + result.value);
 
 call("+6597809414",{
    network:"SMS"});
-say("We have received your SMS" +'\n');
-say("You asked about " + currentCall.InitialText);
-
+say("We have received your SMS" +'\n' + "You asked about " + currentCall.InitialText );
 
 //Sending SMS
 /*
