@@ -15,7 +15,7 @@ say("You said" + result.value);
 
 //Answering Incoming SMS
 
-call("+6597809414",{
+call("+6597809414", {
    network:"SMS"});
 say("We have received your SMS. " + "You asked about " + currentCall.initialText);
 
