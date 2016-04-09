@@ -20,8 +20,15 @@ say("You asked about " + currentCall.InitialText);
 */
 
 //Sending SMS
+/*
 message("You have an appointment at 2 pm on Thursday", {
     to:"+6597809414",
     network:"SMS"
 });
+*/
 
+//Sending SMS using variable
+message(textMsg, {
+    to:"+" + recipient,
+    network:"SMS"
+});
