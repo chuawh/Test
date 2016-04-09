@@ -13,6 +13,6 @@ var result = ask("What's your favorite color?  Choose from red, blue or green.",
 say("You said" + result.value);
 */
 
-/Answering Incoming SMS
+//Answering Incoming SMS
 say("We have received your SMS" +'\n');
 say("You asked about " + currentCall.InitialText);
