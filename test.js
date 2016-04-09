@@ -15,4 +15,4 @@ say("You said" + result.value);
 
 /Answering Incoming SMS
 say("We have received your SMS" +'\n');
-say("You asked about " + currentCall.InitialText)
+say("You asked about " + currentCall.InitialText);
