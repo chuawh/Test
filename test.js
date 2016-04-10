@@ -14,18 +14,17 @@ say("You said" + result.value);
 */
 
 //Answering Incoming SMS
-
+/*
 call("+6597809414", {
    network:"SMS"});
 say("We have received your SMS. " + "You asked about " + currentCall.initialText);
-
+*/
 //Sending SMS
-/*
-message("You have an appointment at 2 pm on Thursday", {
+message("We have received your SMS. " + "You asked about " + currentCall.initialText, {
     to:"+6597809414",
     network:"SMS"
 });
-*/
+
 
 //Sending SMS using variable
 /*
