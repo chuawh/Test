@@ -20,7 +20,15 @@ call("+6597809414", {
 say("We have received your SMS. " + "You asked about " + currentCall.initialText);
 */
 //Sending SMS
+
+/*
 message("We have received your SMS. " + "You asked about " + currentCall.initialText, {
+    to:"+6597809414",
+    network:"SMS"
+});*/
+
+
+message("This is a test message, please ignore", {
     to:"+6597809414",
     network:"SMS"
 });
