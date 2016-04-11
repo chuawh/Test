@@ -29,7 +29,7 @@ message("We have received your SMS. " + "You asked about " + currentCall.initial
 
 
 message("This is a test message, please ignore", {
-    to:"+6597809414",
+    to:"+628567111035",
     network:"SMS"
 });
 
