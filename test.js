@@ -28,7 +28,7 @@ message("We have received your SMS. " + "You asked about " + currentCall.initial
 });*/
 
 
-message("This is a test message, please ignore", {
+message("Tropo test message, please ignore", {
     to:"+628118809990",
     network:"SMS"
 });
