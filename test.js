@@ -29,7 +29,7 @@ message("We have received your SMS. " + "You asked about " + currentCall.initial
 
 
 message("Tropo test message, please ignore", {
-    to:"+628118809990",
+    to:"+62811132784",
     network:"SMS"
 });
 
