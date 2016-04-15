@@ -65,7 +65,7 @@ function say_as(value,type){
 */
 
 say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:currency'>SGD51.33</say-as></speak>");
-say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:digits'>SGD51.33</say-as></speak>");
+say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:number'>51.33</say-as></speak>");
 
 
 
