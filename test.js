@@ -70,6 +70,7 @@ say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:number'>20160501</sa
 
 
 var name=ask("Please say your name?", {
+	 choices:["David", "Peter", "Jason"],
 	 terminator:"#",
          timeout:10.0,
          mode:"speech"
