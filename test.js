@@ -65,7 +65,7 @@ function say_as(value,type){
 */
 
 say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:date'>12312016</say-as></speak>");
-say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:digits'>12322016</say-as></speak>");
+say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:digits'>12312016</say-as></speak>");
 
 
 
