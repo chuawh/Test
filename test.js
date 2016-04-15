@@ -70,12 +70,15 @@ say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:number'>20160501</sa
 
 
 var name=ask("Please say your name?");
+say("You said" + name.value);
+wait(5000);
 
+say("Welcome to the geek single conference!");
 conference("1337", {
     terminator: "*",
     mute: false,
-    jointPrompt: name.value + "just joined", 
-    leavePrompt: name.value + "just left",
+    joinPrompt:{"value": name.value + "joined the Conference"},
+    leavePrompt:{"value": name.value + "left the Conference"},
     playTones: true
     });
 
