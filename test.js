@@ -50,6 +50,8 @@ message(textMsg, {
 
 //say('<speak><audio src="http://example.com/welcome.wav">This text will be spoken if the audio file can not be played.</audio></speak>');
 //say("<?xml version='1.0'?><speak><say-as interpret as='vxml:currency'>1234</say-as></speak>");
+/*
+
 function say_as(value,type){
       ssml_start="<?xml version='1.0'?><speak>";
       ssml_end="</say-as></speak>";
@@ -60,6 +62,11 @@ function say_as(value,type){
 }
 
 	say_as('USD51.33','currency');
+*/
+
+say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:currency'>USD51.33</say-as></speak>");
+
+
 
 //say("<speak><say-as interpret-as='vxml:"+ type + "'>" + value+""
 //say("<speak><say-as interpret as='digits'>1234</say-as></speak>");
