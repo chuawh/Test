@@ -42,6 +42,8 @@ message(textMsg, {
 });
 */
 
-say("One potato, two potato, three potato, four potato.");
-say("<speak><prosody rate='-50%'>One potato, two potato, three potato, four potato.</prosody></speak>");
+//say("One potato, two potato, three potato, four potato.");
+//say("<speak><prosody rate='-50%'>One potato, two potato, three potato, four potato.</prosody></speak>");
+say("<speak> That is a <emphasis> big </emphasis> car!</speak>");
+say("<speak> That is a <emphasis level="strong"> big </emphasis> car!</speak>");
 //say("<speak><prosody rate='+50%'>One potato, two potato, three potato, four potato.</prosody></speak>");
