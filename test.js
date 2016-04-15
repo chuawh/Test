@@ -46,4 +46,4 @@ say("One potato, two potato, three potato, four potato.");
 say("<speak><prosody rate='-50%'>One potato, two potato, three potato, four potato.</prosody></speak>");
 //say("<speak><voice gender="male">Mary had a little lamb,</voice></speak>");
 //say("<speak><voice gender="female">Mary had a little lamb,</voice></speak>");
-say("<speak><prosody rate='+150%'>One potato, two potato, three potato, four potato.</prosody></speak>");
+say("<speak><prosody rate='+100%'>One potato, two potato, three potato, four potato.</prosody></speak>");
