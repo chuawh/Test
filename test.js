@@ -49,7 +49,10 @@ message(textMsg, {
 //say("<speak><prosody rate='+60%'>One potato, two potato, three potato, four potato.</prosody></speak>");
 
 //say('<speak><audio src="http://example.com/welcome.wav">This text will be spoken if the audio file can not be played.</audio></speak>');
-say("<speak><say-as interpret as='currency'>1234</say-as></speak>");
-say("<speak><say-as interpret as='digits'>1234</say-as></speak>");
+say("<speak><say-as interpret as=vxml:'currency'>1234</say-as></speak>");
+
+
+//say("<speak><say-as interpret-as='vxml:"+ type + "'>" + value+""
+//say("<speak><say-as interpret as='digits'>1234</say-as></speak>");
 
 
