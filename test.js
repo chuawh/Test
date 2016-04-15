@@ -44,4 +44,4 @@ message(textMsg, {
 
 say("One potato, two potato, three potato, four.");
 say("<speak><prosody rate='-50%'>One potato, two potato, three potato, four.</prosody></speak>");
-say("<speak><prosody rate='-10%'>One potato, two potato, three potato, four.</prosody></speak>");
+say("<speak><prosody rate='-90%'>One potato, two potato, three potato, four.</prosody></speak>");
