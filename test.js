@@ -43,9 +43,7 @@ message(textMsg, {
 */
 
 say("One potato, two potato, three potato, four potato.");
-wait(2000);
 say("<speak><prosody rate='-50%'>One potato, two potato, three potato, four potato.</prosody></speak>");
-wait(2000);
 //say("<speak><voice gender="male">Mary had a little lamb,</voice></speak>");
 //say("<speak><voice gender="female">Mary had a little lamb,</voice></speak>");
 say("<speak><prosody rate='+80%'>One potato, two potato, three potato, four potato.</prosody></speak>");
