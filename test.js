@@ -27,12 +27,12 @@ message("We have received your SMS. " + "You asked about " + currentCall.initial
     network:"SMS"
 });*/
 
-
+/*
 message("Tropo test message, please ignore", {
     to:"+62811132784",
     network:"SMS"
 });
-
+*/
 
 //Sending SMS using variable
 /*
@@ -41,3 +41,7 @@ message(textMsg, {
     network:"SMS"
 });
 */
+
+say("One potato, two potato, three potato, four.");
+say("<speak><prosody rate='-50%'>One potato, two potato, three potato, four.</prosody></speak>");
+say("<speak><prosody rate='-10%'>One potato, two potato, three potato, four.</prosody></speak>");
