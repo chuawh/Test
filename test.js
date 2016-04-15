@@ -64,8 +64,21 @@ function say_as(value,type){
 	say_as('USD51.33','currency');
 */
 
-say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:date'>20160501</say-as></speak>");
+/*say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:date'>20160501</say-as></speak>");
 say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:number'>20160501</say-as></speak>");
+*/
+
+
+var name=ask("Please say your name?");
+
+conference("1337", {
+    terminator: "*",
+    mute: false,
+    jointPrompt: name.value + "just joined", 
+    leavePrompt: name.value + "just left",
+    playTones: true
+    });
+
 
 
 
