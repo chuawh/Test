@@ -79,8 +79,8 @@ say("You said" + name.value);
 wait(5000);*/
 
 say("tell us your name.");
-record("", {recordURL: "file:///recordings/test.wav", terminator: "#"});
-conference('conf1234', {joinPrompt: {"value": "file:///recordings/test.wav" + "join the conference"}});
+record("", {recordURL: "file://recordings/test.wav", terminator: "#"});
+conference('conf1234', {joinPrompt: {"value": "file://recordings/test.wav" + "join the conference"}});
 
 /*say("Welcome to the geek single conference!");
 conference("1337", {
