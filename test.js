@@ -48,6 +48,11 @@ message(textMsg, {
 //say("<speak><voice gender="female">Mary had a little lamb,</voice></speak>");
 //say("<speak><prosody rate='+60%'>One potato, two potato, three potato, four potato.</prosody></speak>");
 
+
+say("<speak><pitch='low'>One potato, two potato, three potato, four potato.</prosody></speak>");
+say("<speak><pitch='x-high'>One potato, two potato, three potato, four potato.</prosody></speak>");
+
+
 //say('<speak><audio src="http://example.com/welcome.wav">This text will be spoken if the audio file can not be played.</audio></speak>');
 //say("<?xml version='1.0'?><speak><say-as interpret as='vxml:currency'>1234</say-as></speak>");
 /*
@@ -78,9 +83,6 @@ say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:number'>20160501</sa
 say("You said" + name.value);
 wait(5000);*/
 
-say("tell us your name.");
-record("", {recordURL: "file://recordings/test.wav", terminator: "#"});
-conference('conf1234', {joinPrompt: {"value": "file://recordings/test.wav" + "join the conference"}});
 
 /*say("Welcome to the geek single conference!");
 conference("1337", {
