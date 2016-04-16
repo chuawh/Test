@@ -49,8 +49,8 @@ message(textMsg, {
 //say("<speak><prosody rate='+60%'>One potato, two potato, three potato, four potato.</prosody></speak>");
 
 
-say("<speak><pitch='low'>One potato, two potato, three potato, four potato.</prosody></speak>");
-say("<speak><pitch='x-high'>One potato, two potato, three potato, four potato.</prosody></speak>");
+say("<speak><prosody pitch='low'>One potato, two potato, three potato, four potato.</prosody></speak>");
+say("<speak><prosody pitch='x-high'>One potato, two potato, three potato, four potato.</prosody></speak>");
 
 
 //say('<speak><audio src="http://example.com/welcome.wav">This text will be spoken if the audio file can not be played.</audio></speak>');
