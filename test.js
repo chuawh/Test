@@ -69,23 +69,27 @@ say("<?xml version='1.0'?><speak><say-as interpret-as='vxml:number'>20160501</sa
 */
 
 
-var name=ask("Please say your name?", {
+/*var name=ask("Please say your name?", {
 	 choices:["David", "Peter", "Jason"],
 	 terminator:"#",
          timeout:10.0,
          mode:"speech"
 });
 say("You said" + name.value);
-wait(5000);
+wait(5000);*/
 
-say("Welcome to the geek single conference!");
+say("tell us your name.");
+record("", {recordURL: "file:///recordings/test.wav", terminator: "#"});
+conference('conf1234', {joinPrompt: {"value": "file:///recordings/test.wav" + "join the conference"}});
+
+/*say("Welcome to the geek single conference!");
 conference("1337", {
     terminator: "*",
     mute: false,
     joinPrompt:{"value": name.value + "joined the Conference"},
     leavePrompt:{"value": name.value + "left the Conference"},
     playTones: true
-    });
+    });*/
 
 
 
