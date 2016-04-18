@@ -6,13 +6,13 @@ say("Thanks for calling Tropo.",{voice: "veronica"});
 */
 
 //Asking Questions
-
+/*
 var result = ask("What's your favorite color?  Choose from red, blue or green.", {
    choices:"red, blue, green",
    timeout:10
 });
 say("You said" + result.value);
-
+*/
 
 //Answering Incoming SMS
 /*
@@ -106,17 +106,18 @@ conference("1337", {
 //say("<speak><say-as interpret as='digits'>1234</say-as></speak>");
 //
 
-/*
+
 say("你好,欢迎来到香港", {voice:"Sin-ji"});
 
 
 var result=ask("你最喜欢什么颜色,红色,蓝色,绿色", {
-      choices:"红色,蓝色,绿色",
-      timeout:7,
-      voice:"Sin-ji"
+      choices:["红色","蓝色","绿色"],
+      timeout:10,
+      voice:"Sin-ji",
+      recognizer:"cn-hk"
     });
 say(result.value,{voice:"Sin-ji"});
-*/
+
 /*
 var result = ask("Pick a number from 0 to 9", {
    choices:"0,1,2,3,4,5,6,7,8,9",
