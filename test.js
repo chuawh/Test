@@ -14,10 +14,11 @@ say("You said" + result.value);
 */
 
 //Answering Incoming SMS
+/*
 call("+6597809414", {
    network:"SMS"});
 say("We have received your SMS.");
-
+*/
 //Sending SMS
 
 /*
@@ -104,4 +105,12 @@ conference("1337", {
 //say("<speak><say-as interpret as='digits'>1234</say-as></speak>");
 //
 
+
+say("你好,欢迎来到香港", {voice:"Sin-ji"});
+
+var result=ask("你最喜欢什么颜色,红色，蓝色，绿色", {
+      choices:"红色，蓝色，绿色",
+      voice:"Sin-ji",
+    });
+say("You said" + result.value);
 
