@@ -112,5 +112,5 @@ var result=ask("你最钟意么颜色？,红色，蓝色，绿色", {
       choices:"红色，蓝色，绿色",
       voice:"Sin-ji",
     });
-say("You said" + result.value);
+say(result.value,｛voice:"Sin-Ji"});
 
