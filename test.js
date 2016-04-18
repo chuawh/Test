@@ -108,9 +108,10 @@ conference("1337", {
 
 say("你好,欢迎来到香港", {voice:"Sin-ji"});
 
+/*
 var result=ask("你最喜欢什么颜色,红色，蓝色，绿色", {
       choices:"红色，蓝色，绿色",
       voice:"Sin-ji",
     });
 say(result.value,{voice:"Sin-ji"});
-
+*/
