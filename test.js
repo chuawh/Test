@@ -1,9 +1,9 @@
 //Tropo demo script
 
 //Incoming Call
-/*say("Tropo https://www.tropo.com/static/audio/tropo-rocks.mp3");
+say("Tropo https://www.tropo.com/static/audio/tropo-rocks.mp3");
 say("Thanks for calling Tropo.",{voice: "veronica"});
-*/
+
 
 //Asking Questions
 /*
@@ -15,11 +15,11 @@ say("You said" + result.value);
 */
 
 //Answering Incoming SMS
-
+/*
 call("+6597809414", {
    network:"SMS"});
 say("We have received your SMS.");
-
+*/
 //Sending SMS
 
 /*
