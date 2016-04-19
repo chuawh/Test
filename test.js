@@ -1,7 +1,7 @@
 //Tropo demo script
 
 //Incoming Call
-say("Tropo https://www.tropo.com/static/audio/tropo-rocks.mp3");
+say("Tropo is easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
 say("Thanks for calling Tropo.",{voice: "veronica"});
 
 
