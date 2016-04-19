@@ -2,7 +2,7 @@
 
 //Incoming Call
 say("Tropo is easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
-say("Thanks for calling Tropo.",{voice: "veronica"});
+//say("Thanks for calling Tropo.",{voice: "veronica"});
 
 
 //Asking Questions
