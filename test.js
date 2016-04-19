@@ -15,11 +15,11 @@ say("You said" + result.value);
 */
 
 //Answering Incoming SMS
-/*
+
 call("+6597809414", {
    network:"SMS"});
 say("We have received your SMS.");
-*/
+
 //Sending SMS
 
 /*
@@ -106,7 +106,7 @@ conference("1337", {
 //say("<speak><say-as interpret as='digits'>1234</say-as></speak>");
 //
 
-
+/*
 say("你好,欢迎来到香港", {voice:"Sin-ji"});
 
 
@@ -117,7 +117,7 @@ var result=ask("你最钟意么颜色？红色,蓝色,绿色", {
       recognizer:"cn-hk"
     });
 say("你好"+ result.value,{voice:"Sin-ji"});
-
+*/
 /*
 var result = ask("Pick a number from 0 to 9", {
    choices:"0,1,2,3,4,5,6,7,8,9",
