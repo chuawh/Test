@@ -1,13 +1,13 @@
 //Tropo demo script
 
 //Incoming Call
-say("Tropo is easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
+say("Tropo is so easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
 
-message("We have received your SMS.", {
+/*message("We have received your SMS.", {
     to:"+6597809414",
     network:"SMS"
 });
-    
+*/    
 //say("Thanks for calling Tropo.",{voice: "veronica"});
 
 
