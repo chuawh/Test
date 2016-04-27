@@ -1,5 +1,5 @@
 //Tropo demo script
-call("sip:seang@cisco.com");
+call("sip:whongchu@cisco.com");
 say("Tropo is easy");
 
 //Incoming Call
