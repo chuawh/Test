@@ -1,7 +1,8 @@
 //Tropo demo script
+call("86575974@cisco.com");
 
 //Incoming Call
-say("Tropo is so easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
+//say("Tropo is so easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
 
 /*message("We have received your SMS.", {
     to:"+6597809414",
