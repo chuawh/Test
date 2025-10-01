@@ -1,6 +1,6 @@
 //Tropo demo script
-call("sip:whongchu@cisco.com");
-say("Tropo is easy");
+// call("sip:whongchu@cisco.com");
+// say("Tropo is easy");
 
 //Incoming Call
 //say("Tropo is so easy https://www.tropo.com/static/audio/tropo-rocks.mp3");
